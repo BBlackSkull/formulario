@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                Formulario
+            </h1>
+            <p id=" ription">
+                Gracias por confiar en nosotros.
+            </p>
+
+        </header>
+        <form action="" id="Formulario">
+            <div class="grupo-formulario">
+                <label form="nombres">Nombres</label>
+                <input type="text" nombres="nombres" id="nombres" class="control-forma" placeholder="Ingresa tu nombre"
+                    required>
+
+            </div>
+
+            <div class="grupo-formulario">
+                <label form="email">Email</label>
+                <input type="text" nombres="email" id="email" class="control-forma" placeholder="Ingresa tu email"
+                    required>
+
+            </div>
+
+            <div class="grupo-formulario">
+                <label form="telefono">Telefono</label>
+                <input type="telefono" nombres="telefono" id="telefono" class="control-forma"
+                    placeholder="Ingresa tu numero telefonico" required>
+
+            </div>
+
+            <div class="grupo-formulario">
+                <label form="direccion">Direccion
+                    <span class="clue">(Opcional) </span>
+                </label>
+                <input type="direccion" nombres="direccion" id="direccion" class="control-forma"
+                    placeholder="Ingresa tu Direccion" >
+
+            </div>
+            <div class="grupo-formulario"> 
+                <p id="quest">¿Qué opción describe mejor su puesto actual?
+                </p>
+                <select name="role" id="dropdown"
+                    class="control-formulario" required>
+                    <option value="" disabled
+                    selected> selecciona tu rol actual</option>
+                    <option value="estudiante">Estudiante</option>
+                    <option value="profesor">Profesor</option>
+                    <option value="trabajo">Trabajo</option>
+                    <option value="otro">Otro</option>
+                    
+
+                </select>
+            </div>
+            <div class="grupo-formulario">
+                <p id="buesqueda">Como llegaste a saber de este Formulario?</p>
+                <label for="">
+                    <input type="radio"
+                    name="source"  
+                    value="amigos"
+                    class="inputRadio"
+                    checked>Amigos
+                </label>
+                
+                <label for="">
+                    <input type="radio"
+                    name="source"  
+                    value="Redes sociales"
+                    class="inputRadio"
+                    checked>Redes sociales
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source"  
+                    value="Tv"
+                    class="inputRadio"
+                    checked>Tv
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source"  
+                    value="Radio"
+                    class="inputRadio"
+                    checked>Radio
+                </label>
+
+                <label for="">
+                    <input type="radio"
+                    name="source"  
+                    value="otros"
+                    class="inputRadio"
+                    checked>Otros
+                </label>
+
+            </div>
+            <div class="grupo-formulario">
+                <p id="busqueda">Que te gustaria que mejore?
+
+                </p>
+                <label for=""> 
+                    <input type="checkbox"
+                    name="prefer"
+                    class="checkbox"
+                    value="front-end-dev">Front End Developer
+                    
+                </label>
+
+                <label for=""> 
+                    <input type="checkbox"
+                    name="prefer"
+                    class="checkbox"
+                    value="app-dev">Android App Developer
+                    
+                </label>
+
+                <label for=""> 
+                    <input type="checkbox"
+                    name="prefer"
+                    class="checkbox"
+                    value="soft-ingeniero">Ingeniero En Software
+                    
+                </label>
+
+                <label for=""> 
+                    <input type="checkbox"
+                    name="prefer"
+                    class="checkbox"
+                    value="otro">Otros
+                    
+                </label>
+            </div>
+            <div class="grupo-formulario">
+                <p id="busqueda">Danos tu opinion, es importante para nosotros
+
+                </p>
+                <textarea name="opinion" id="opinion" cols="30" rows="5"
+                placeholder="Ingresa tu opinion aqui..."></textarea>
+            </div>
+            <div class="grupo-formulario">
+                <button type="Busqueda"
+                id="busqueda"
+                class="btn">Busqueda</button> 
+             </div>
+
+        </form>
+
+
+</body>
+
+</html>
